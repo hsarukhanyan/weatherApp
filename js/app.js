@@ -30,7 +30,8 @@ function initApp(index) {
     let $cities = document.querySelector('[name="cities"]');
     let selectedCityIndex = index;// Yerevan
     let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    let selectedDay = new Date().getDay();
+    let today = new Date().getDay();
+    let selectedDay = today;
 
     //app bootstrap functions
     fillCitiesList($cities, handleCityChange);
