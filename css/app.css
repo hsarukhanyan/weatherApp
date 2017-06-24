@@ -1,0 +1,51 @@
+body {
+    background: #19232d;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid white;
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.select-wrpper {
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    min-width: 190px;
+    font-size: 2rem;
+    color: white;
+    background: #19232d;
+    border-radius: 5px;
+    padding: 4px;
+    border: 2px solid white;
+}
+
+.card-wrapper {
+    margin-top: 10px;
+}
+
+.list-of-days{
+    list-style-type: none;
+}
+.list-of-days>li{
+    padding: 5px;
+    border-radius: 3px;
+    float: left;
+}
+li.selected{
+    background: #354752;
+}
+.list-of-days>li:hover{
+    background: #354752;
+    cursor: pointer;
+}
